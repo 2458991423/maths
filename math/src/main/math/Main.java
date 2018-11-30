@@ -1,10 +1,18 @@
-package main.com.math;
+package main.math;
 
 public class Main {
+
     static class ListNode {
         int val;
         ListNode next;
+        ListNode head;
         ListNode(int x) { val = x; }
+        public void add(int var) {
+            while(this.next != null) {
+                ListNode cur = this.next;
+            }
+
+        }
     }
 
     public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
